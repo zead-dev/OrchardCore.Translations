@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2023-12-22 16:21\n"
+"PO-Revision-Date: 2024-06-14 04:33\n"
 
 #. builder.Add(S["Security"], security => security
 #: OrchardCore.GitHub\AdminMenuGitHubLogin.cs:23

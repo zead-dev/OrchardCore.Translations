@@ -32,7 +32,7 @@ msgstr "コンテンツの定義"
 #: OrchardCore.ContentTypes\AdminMenu.cs:30
 msgctxt "OrchardCore.ContentTypes.AdminMenu"
 msgid "Content Types"
-msgstr "コンテンツの種類"
+msgstr "コンテンツタイプ"
 
 #. .Add(S["Content Parts"], S["Content Parts"].PrefixPosition("2"), contentParts => contentParts
 #. .Add(S["Content Parts"], S["Content Parts"].PrefixPosition("2"), contentParts => contentParts
@@ -40,7 +40,7 @@ msgstr "コンテンツの種類"
 #: OrchardCore.ContentTypes\AdminMenu.cs:34
 msgctxt "OrchardCore.ContentTypes.AdminMenu"
 msgid "Content Parts"
-msgstr "コンテンツのパーツ"
+msgstr "コンテンツパーツ"
 
 #. ModelState.AddModelError("DisplayName", S["The Display Name can't be empty."]);
 #. ModelState.AddModelError("DisplayName", S["The Display Name can't be empty."]);
@@ -118,7 +118,7 @@ msgstr "同一の技術名の型がすでに存在します"
 #: OrchardCore.ContentTypes\Controllers\AdminController.cs:145
 msgctxt "OrchardCore.ContentTypes.Controllers.AdminController"
 msgid "The \"{0}\" content type has been created."
-msgstr "コンテンツ種別「{0}」が作成されました"
+msgstr "コンテンツタイプ「{0}」が作成されました"
 
 #. await _notifier.SuccessAsync(H["\"{0}\" settings have been saved.", contentTypeDefinition.Name]);
 #: OrchardCore.ContentTypes\Controllers\AdminController.cs:204
@@ -168,13 +168,13 @@ msgstr "\"{0}\" パートが削除されました"
 #: OrchardCore.ContentTypes\Controllers\AdminController.cs:497
 msgctxt "OrchardCore.ContentTypes.Controllers.AdminController"
 msgid "The content part could not be created."
-msgstr "コンテンツのパーツを作成できませんでした。"
+msgstr "コンテンツパーツを作成できませんでした。"
 
 #. await _notifier.SuccessAsync(H["The \"{0}\" content part has been created.", partViewModel.Name]);
 #: OrchardCore.ContentTypes\Controllers\AdminController.cs:501
 msgctxt "OrchardCore.ContentTypes.Controllers.AdminController"
 msgid "The \"{0}\" content part has been created."
-msgstr "コンテンツのパーツ \"{0}\" が作成されました。"
+msgstr "コンテンツパーツ \"{0}\" が作成されました。"
 
 #. await _notifier.SuccessAsync(H["The settings of \"{0}\" have been saved.", contentPartDefinition.Name]);
 #: OrchardCore.ContentTypes\Controllers\AdminController.cs:557
@@ -242,7 +242,7 @@ msgstr "ステレオタイプは英数字でなければなりません。"
 #: OrchardCore.ContentTypes\Editors\DefaultContentTypeDisplayDriver.cs:38
 msgctxt "OrchardCore.ContentTypes.Editors.DefaultContentTypeDisplayDriver"
 msgid "The Content Type name can't be empty."
-msgstr "コンテンツの種類名は空にできません。"
+msgstr "コンテンツタイプ名は空にできません。"
 
 #. throw new Exception(S["Cannot add part named '{0}'. It already exists.", name]);
 #: OrchardCore.ContentTypes\Services\ContentDefinitionService.cs:281
@@ -308,7 +308,7 @@ msgstr "パーツを \"{0}\" に追加"
 #: OrchardCore.ContentTypes\Views\Admin\AddPartsTo.cshtml:7
 msgctxt "OrchardCore.ContentTypes.Views.Admin.AddPartsTo"
 msgid "Choose the Parts to add to this Content Type."
-msgstr "このコンテンツの種類に追加するパーツを選択します。"
+msgstr "このコンテンツタイプに追加するパーツを選択します。"
 
 #. <button class="btn btn-primary save" type="submit">@T["Save"]</button>
 #: OrchardCore.ContentTypes\Views\Admin\AddPartsTo.cshtml:29
@@ -392,19 +392,19 @@ msgstr ""
 #: OrchardCore.ContentTypes\Views\Items\ContentDefinitionDeploymentStep.Fields.Edit.cshtml:21
 msgctxt "OrchardCore.ContentTypes.Views.Items.ContentDefinitionDeploymentStep.Fields.Edit"
 msgid "Include all content types and parts definitions."
-msgstr "すべてのコンテンツの種類とパーツ定義を含めます。"
+msgstr "すべてのコンテンツタイプとパーツ定義を含めます。"
 
 #. <span class="hint">@T["The content types to add as part of the plan."]</span>
 #: OrchardCore.ContentTypes\Views\Items\ContentDefinitionDeploymentStep.Fields.Edit.cshtml:31
 msgctxt "OrchardCore.ContentTypes.Views.Items.ContentDefinitionDeploymentStep.Fields.Edit"
 msgid "The content types to add as part of the plan."
-msgstr "プランの一部として追加するコンテンツの種類。"
+msgstr "プランの一部として追加するコンテンツタイプ。"
 
 #. <span class="hint">@T["The content parts to add as part of the plan."]</span>
 #: OrchardCore.ContentTypes\Views\Items\ContentDefinitionDeploymentStep.Fields.Edit.cshtml:88
 msgctxt "OrchardCore.ContentTypes.Views.Items.ContentDefinitionDeploymentStep.Fields.Edit"
 msgid "The content parts to add as part of the plan."
-msgstr "プランの一部として追加するコンテンツのパーツ"
+msgstr "プランの一部として追加するコンテンツパーツ"
 
 #. <h5>@T["Update Content Definitions"]</h5>
 #: OrchardCore.ContentTypes\Views\Items\ContentDefinitionDeploymentStep.Fields.Summary.cshtml:6
@@ -476,7 +476,7 @@ msgstr "添付可能"
 #: OrchardCore.ContentTypes\Views\ContentPartSettings.Edit.cshtml:26
 msgctxt "OrchardCore.ContentTypes.Views.ContentPartSettings.Edit"
 msgid "Check to allow this part to be attached to other content types."
-msgstr "このパーツを他のコンテンツの種類に追加できるようにする場合はチェック"
+msgstr "このパーツを他のコンテンツタイプに追加できるようにする場合はチェック"
 
 #. <label class="form-check-label" asp-for="Reusable">@T["Reusable"]</label>
 #: OrchardCore.ContentTypes\Views\ContentPartSettings.Edit.cshtml:31
@@ -548,7 +548,7 @@ msgstr "リスト表示可能"
 #: OrchardCore.ContentTypes\Views\ContentTypeSettings.Edit.cshtml:23
 msgctxt "OrchardCore.ContentTypes.Views.ContentTypeSettings.Edit"
 msgid "Determines if an instance of this content type can be listed through the UI."
-msgstr "このコンテンツ種別のインスンタンスがUIでの一覧で表示されるか決定します"
+msgstr "このコンテンツタイプのインスンタンスがUIでの一覧で表示されるか決定します"
 
 #. <label class="form-check-label" asp-for="Draftable">@T["Draftable"]</label>
 #: OrchardCore.ContentTypes\Views\ContentTypeSettings.Edit.cshtml:30
@@ -584,7 +584,7 @@ msgstr "カスタム権限可能"
 #: OrchardCore.ContentTypes\Views\ContentTypeSettings.Edit.cshtml:47
 msgctxt "OrchardCore.ContentTypes.Views.ContentTypeSettings.Edit"
 msgid "Determines if this content type can have custom permissions."
-msgstr "コンテンツ種別がカスタム権限設定できるか決定します"
+msgstr "コンテンツタイプがカスタム権限設定できるか決定します"
 
 #. <label asp-for="Stereotype">@T["Stereotype"]</label>
 #: OrchardCore.ContentTypes\Views\ContentTypeSettings.Edit.cshtml:53
@@ -602,7 +602,7 @@ msgstr ""
 #: OrchardCore.ContentTypes\Views\Admin\Create.cshtml:3
 msgctxt "OrchardCore.ContentTypes.Views.Admin.Create"
 msgid "New Content Type"
-msgstr "新規コンテンツ種別"
+msgstr "新規コンテンツタイプ"
 
 #. <label asp-for="DisplayName" class="form-label">@T["Display Name"]</label>
 #: OrchardCore.ContentTypes\Views\Admin\Create.cshtml:9
@@ -704,7 +704,7 @@ msgstr ""
 #: OrchardCore.ContentTypes\Views\Admin\Edit.cshtml:50
 msgctxt "OrchardCore.ContentTypes.Views.Admin.Edit"
 msgid "Edit Content Type - {0}"
-msgstr "コンテンツの種類- {0} を編集"
+msgstr "コンテンツタイプ- {0} を編集"
 
 #. <h3>@T["Fields"]</h3>
 #: OrchardCore.ContentTypes\Views\Admin\Edit.cshtml:69
@@ -844,7 +844,7 @@ msgstr "キャンセル"
 #: OrchardCore.ContentTypes\Views\Admin\EditPart.cshtml:17
 msgctxt "OrchardCore.ContentTypes.Views.Admin.EditPart"
 msgid "Edit Content Part - {0}"
-msgstr "コンテンツのパーツ- {0} を編集"
+msgstr "コンテンツパーツ- {0} を編集"
 
 #. <h3>@T["Fields"]</h3>
 #: OrchardCore.ContentTypes\Views\Admin\EditPart.cshtml:34
@@ -1030,7 +1030,7 @@ msgstr ""
 #: OrchardCore.ContentTypes\Views\Admin\List.cshtml:3
 msgctxt "OrchardCore.ContentTypes.Views.Admin.List"
 msgid "Content Types"
-msgstr "コンテンツの種類"
+msgstr "コンテンツタイプ"
 
 #. <input id="search-box" class="form-control" placeholder="@T["Search"]" type="search" autofocus />
 #: OrchardCore.ContentTypes\Views\Admin\List.cshtml:11
@@ -1054,7 +1054,7 @@ msgstr "<strong>何もありません!</strong> 検索結果は0件でした"
 #: OrchardCore.ContentTypes\Views\Admin\ListParts.cshtml:3
 msgctxt "OrchardCore.ContentTypes.Views.Admin.ListParts"
 msgid "Content Parts"
-msgstr "コンテンツのパーツ"
+msgstr "コンテンツパーツ"
 
 #. <input id="search-box" class="form-control" placeholder="@T["Search"]" type="search" autofocus />
 #: OrchardCore.ContentTypes\Views\Admin\ListParts.cshtml:11

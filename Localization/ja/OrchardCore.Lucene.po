@@ -430,13 +430,13 @@ msgstr "インデックスを作成する際のコンテンツのカルチャ。
 #: OrchardCore.Lucene\Views\Admin\Edit.cshtml:33
 msgctxt "OrchardCore.Lucene.Views.Admin.Edit"
 msgid "Content Types"
-msgstr "コンテンツの種類"
+msgstr "コンテンツタイプ"
 
 #. <span class="hint dashed">@T["The content types to index. Choose at least one."]</span>
 #: OrchardCore.Lucene\Views\Admin\Edit.cshtml:34
 msgctxt "OrchardCore.Lucene.Views.Admin.Edit"
 msgid "The content types to index. Choose at least one."
-msgstr "インデックスに含めるコンテンツの種類。少なくとも 1 つ選択してください。"
+msgstr "インデックスに含めるコンテンツタイプ。少なくとも 1 つ選択してください。"
 
 #. <label asp-for="IndexLatest">@T["Index options"]</label>
 #: OrchardCore.Lucene\Views\Admin\Edit.cshtml:47

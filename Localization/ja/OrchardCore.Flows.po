@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2023-12-22 16:20\n"
+"PO-Revision-Date: 2024-06-14 04:33\n"
 
 #. await _notifier.WarningAsync(H["The Widget content item with id {0} has no matching {1} content type definition.", contentItem.ContentItemId, contentItem.ContentType]);
 #: OrchardCore.Flows\Drivers\BagPartDisplayDriver.cs:187
@@ -58,7 +58,7 @@ msgstr ""
 #: OrchardCore.Flows\Settings\BagPartSettingsDisplayDriver.cs:91
 msgctxt "OrchardCore.Flows.Settings.BagPartSettingsDisplayDriver"
 msgid "At least one content type must be selected."
-msgstr "少なくとも 1 つのコンテンツの種類を選択する必要があります。"
+msgstr "少なくとも 1 つのコンテンツタイプを選択する必要があります。"
 
 #. href="javascript:;">@T["Add {0}", type.DisplayName]</a>
 #: OrchardCore.Flows\Views\BagPart.Edit.cshtml:69
@@ -84,7 +84,7 @@ msgstr ""
 #: OrchardCore.Flows\Views\BagPartSettings.Edit.cshtml:23
 msgctxt "OrchardCore.Flows.Views.BagPartSettings.Edit"
 msgid "Contained Content Types"
-msgstr "含まれているコンテンツの種類"
+msgstr "含まれているコンテンツタイプ"
 
 #. @T["Content Types"]
 #: OrchardCore.Flows\Views\BagPartSettings.Edit.cshtml:10
@@ -264,11 +264,11 @@ msgstr ""
 #: OrchardCore.Flows\Views\FlowPartSettings.Edit.cshtml:4
 msgctxt "OrchardCore.Flows.Views.FlowPartSettings.Edit"
 msgid "Restrict Content Types"
-msgstr "コンテンツの種類の制限"
+msgstr "コンテンツタイプの制限"
 
 #. <span class="hint">@T["The content types that this flow can contain."]</span>
 #: OrchardCore.Flows\Views\FlowPartSettings.Edit.cshtml:5
 msgctxt "OrchardCore.Flows.Views.FlowPartSettings.Edit"
 msgid "The content types that this flow can contain."
-msgstr "このフローに含めることができるコンテンツの種類。"
+msgstr "このフローに含めることができるコンテンツタイプ。"
 

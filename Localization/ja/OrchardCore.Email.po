@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2023-12-22 16:18\n"
+"PO-Revision-Date: 2024-06-14 04:02\n"
 
 #. .Add(S["Configuration"], configuration => configuration
 #: OrchardCore.Email\AdminMenu.cs:24
@@ -36,13 +36,13 @@ msgstr "メールアドレス"
 #: OrchardCore.Email\Controllers\AdminController.cs:65
 msgctxt "OrchardCore.Email.Controllers.AdminController"
 msgid "Message sent successfully."
-msgstr ""
+msgstr "メッセージは正常に送信されました."
 
 #. [EmailAddress(ErrorMessage = "Invalid Email.")]
 #: OrchardCore.Email\ViewModels\SmtpSettingsViewModel.cs:10
 msgctxt "OrchardCore.Email.ViewModels.SmtpSettingsViewModel"
 msgid "Invalid Email."
-msgstr ""
+msgstr "無効なメールアドレスです。"
 
 #. public override LocalizedString DisplayText => S["Email Task"];
 #: OrchardCore.Email\Workflows\Activities\EmailTask.cs:32
@@ -132,7 +132,7 @@ msgstr ""
 #: OrchardCore.Email\Views\Items\EmailTask.Fields.Edit.cshtml:36
 msgctxt "OrchardCore.Email.Views.Items.EmailTask.Fields.Edit"
 msgid "The comma-separated list of carbon copy email addresses. With Liquid support."
-msgstr ""
+msgstr "Ccメールアドレスのカンマ区切りリスト。Liquid 式を利用可能。"
 
 #. <label asp-for="BccExpression" class="form-label">@T["Bcc"]</label>
 #: OrchardCore.Email\Views\Items\EmailTask.Fields.Edit.cshtml:40
@@ -144,7 +144,7 @@ msgstr ""
 #: OrchardCore.Email\Views\Items\EmailTask.Fields.Edit.cshtml:43
 msgctxt "OrchardCore.Email.Views.Items.EmailTask.Fields.Edit"
 msgid "The comma-separated list of blind copy email addresses. With Liquid support."
-msgstr ""
+msgstr "Bccメールアドレスのカンマ区切りリスト。Liquid 式を利用可能。"
 
 #. <label asp-for="SubjectExpression" class="form-label">@T["Subject"]</label>
 #: OrchardCore.Email\Views\Items\EmailTask.Fields.Edit.cshtml:47
@@ -168,7 +168,7 @@ msgstr "本文にはHTMLを含みますか？"
 #: OrchardCore.Email\Views\Items\EmailTask.Fields.Edit.cshtml:57
 msgctxt "OrchardCore.Email.Views.Items.EmailTask.Fields.Edit"
 msgid "If checked, indicates the body of the email message will be sent as HTML."
-msgstr ""
+msgstr "チェックされている場合、メールメッセージの本文がHTMLとして送信されます。"
 
 #. <label asp-for="Body" class="form-label">@T["Body"]</label>
 #: OrchardCore.Email\Views\Items\EmailTask.Fields.Edit.cshtml:62
@@ -276,7 +276,7 @@ msgstr "送信者メールアドレス"
 #: OrchardCore.Email\Views\SmtpSettings.Edit.cshtml:10
 msgctxt "OrchardCore.Email.Views.SmtpSettings.Edit"
 msgid "The default email address to use as a sender, unless the email sender is set."
-msgstr ""
+msgstr "メール送信者が設定されていない限り、送信者として使用するデフォルトのメールアドレスを指定します。"
 
 #. <label asp-for="DeliveryMethod" class="form-label">@T["Delivery method"]</label>
 #: OrchardCore.Email\Views\SmtpSettings.Edit.cshtml:14
@@ -336,25 +336,25 @@ msgstr "SMTPサーバのポート、普通は 25"
 #: OrchardCore.Email\Views\SmtpSettings.Edit.cshtml:61
 msgctxt "OrchardCore.Email.Views.SmtpSettings.Edit"
 msgid "Proxy host name"
-msgstr ""
+msgstr "プロキシホスト名"
 
 #. <span class="hint">@T["The proxy server is optional."]</span>
 #: OrchardCore.Email\Views\SmtpSettings.Edit.cshtml:64
 msgctxt "OrchardCore.Email.Views.SmtpSettings.Edit"
 msgid "The proxy server is optional."
-msgstr ""
+msgstr "プロキシサーバーはオプションです。"
 
 #. <label asp-for="ProxyPort" class="form-label">@T["Proxy port number"]</label>
 #: OrchardCore.Email\Views\SmtpSettings.Edit.cshtml:71
 msgctxt "OrchardCore.Email.Views.SmtpSettings.Edit"
 msgid "Proxy port number"
-msgstr ""
+msgstr "プロキシポート番号"
 
 #. <span class="hint">@T["The proxy port is optional."]</span>
 #: OrchardCore.Email\Views\SmtpSettings.Edit.cshtml:74
 msgctxt "OrchardCore.Email.Views.SmtpSettings.Edit"
 msgid "The proxy port is optional."
-msgstr ""
+msgstr "プロキシ ポートはオプションです。"
 
 #. <label asp-for="EncryptionMethod" class="form-label">@T["Encryption method to use"]</label>
 #: OrchardCore.Email\Views\SmtpSettings.Edit.cshtml:81
@@ -420,7 +420,7 @@ msgstr "ポートに基づく暗号化方式をシステムに選択させる場
 #: OrchardCore.Email\Views\SmtpSettings.Edit.cshtml:107
 msgctxt "OrchardCore.Email.Views.SmtpSettings.Edit"
 msgid "Require credentials"
-msgstr ""
+msgstr "資格情報が必要"
 
 #. <label class="form-check-label" asp-for="UseDefaultCredentials">@T["Use Windows authentication"]</label>
 #: OrchardCore.Email\Views\SmtpSettings.Edit.cshtml:114
@@ -480,13 +480,13 @@ msgstr "例: <i>C:\\Path\\To\\This\\Site\\PickedUpEmail</i> は C ドライブ�
 #: OrchardCore.Email\Views\SmtpSettings.Edit.cshtml:157
 msgctxt "OrchardCore.Email.Views.SmtpSettings.Edit"
 msgid "Ignore Invalid SSL Certificate"
-msgstr ""
+msgstr "無効なSSL証明書を無視する"
 
 #. <span class="hint dashed">@T["Ignores SSL certificate check if it's invalid."]</span>
 #: OrchardCore.Email\Views\SmtpSettings.Edit.cshtml:158
 msgctxt "OrchardCore.Email.Views.SmtpSettings.Edit"
 msgid "Ignores SSL certificate check if it's invalid."
-msgstr ""
+msgstr "無効だった場合、SSL 証明書チェックを無視します。"
 
 #. <a href="@Url.Action("Index", "Admin", new { area = "OrchardCore.Email" })" class="btn btn-secondary">@T["Test settings"]</a>
 #: OrchardCore.Email\Views\SmtpSettings.TestButton.cshtml:1

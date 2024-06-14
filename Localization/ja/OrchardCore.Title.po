@@ -112,5 +112,5 @@ msgstr "パターン"
 #: OrchardCore.Title\Views\TitlePartSettings.Edit.cshtml:37
 msgctxt "OrchardCore.Title.Views.TitlePartSettings.Edit"
 msgid "The pattern used to render the title of this content type. With Liquid support."
-msgstr "このコンテンツの種類のタイトルを表示するために使用するパターン。リキッド式が使えます。"
+msgstr "このコンテンツタイプのタイトルを表示するために使用するパターン。リキッド式が使えます。"
 
