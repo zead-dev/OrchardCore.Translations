@@ -2,3 +2,6 @@
 [Oo]bj/
 .vs/
 .github/
+artifacts/
+*.nupkg
+
